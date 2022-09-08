@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <title>Pharmacy Shop</title>
+    <link rel="stylesheet" href="Lab-Test.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </style>
+</head>
+<body>
+  <div class="wrapper">
+    <div class="inner">
+    <form action="">
+    <h3>1.Your Contact Details</h3>
+    <div class="form-group">
+    <input type="text" placeholder="Full Name" class="form-control" required>
+    <input type="text" placeholder="Patient Id if exists" class="form-control" required>
+    </div>
+    <div class="form-group">
+    <input type="text" placeholder="Contact number" class="form-control" required>
+    <input type="text" placeholder="Email id" class="form-control" required>
+    </div>
+    <h3>2.Address</h3>
+    <div class="form-group">
+    <input type="text" placeholder="H-No" class="form-control" required>
+    <input type="text" placeholder="Street" class="form-control" required>
+    </div>
+    <div class="form-group">
+    <input type="text" placeholder="Area" class="form-control" required> 
+    </div>
+    <h4>District</h4>
+    <div class="form-wrapper">
+    <select name="Choose" id="" class="form-control">
+    <option value="" disabled selected>Choose</option>
+    <option value="">East Delhi</option>
+    <option value="">West Delhi</option>
+    <option value="">North Delhi</option>
+    <option value="">South Delhi</option>
+    <option value="">Central Delhi</option>
+    </select>
+    </div>
+    <div class="form-wrapper" >
+    <h3>3.Choose the Test Type.</h3>
+    <input type="radio" id="test" name="test-details"required>
+    <label for="test">CBC</label><br>
+    <input type="radio" id="test" name="test-details">
+    <label for="test">Complete Urine</label><br>
+    <input type="radio" id="test" name="test-details">
+    <label for="test">Lipid Profile</label><br>
+    <input type="radio" id="test" name="test-details">
+    <label for="test">Thyroid Stimulating Hormone(TSH)</label><br>
+    <input type="radio" id="test" name="test-details">
+    <label for="test">Glucose Test</label><br>
+    </div> 
+    <br>
+    <h3>4.Do you want a hard copy of the report also?</h3>
+    <input type="radio" id="report" name="report-details">
+    <label for="report">Yes</label><br>
+    <input type="radio" id="css" name="report-details">
+    <label for="report">No</label><br>
+    <br>
+  
+    <h3>5.Select Your Comfortable Date and Time</h3>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="Date"><br>
+    <label for="date">Time:</label>
+    <input type="time" id="time" name="Time">
+    <br>
+    <button input type="reset">Reset</button>
+    <button>Submit</button>
+    </form>
+    <div class="image-holder">
+      <img src="Images/Lab-Test/lab-test.jpg">
+      </div>
+    </div>
+    </div>
+    
+</body>
+</html>
